@@ -61,7 +61,63 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
       <li>use write.table() for 'TidyData' to convert into table format, then export to a text file within the working directory</li>
       <li>17 signals are directed to their corresponding reference Activity Nameswith '.XYZ' representing those values measured upon axes as follows:
 
-     
+     <table>
+  <tr>
+    <th>ACTIVITY NAME</th>
+    <th>TimeDomain</th>
+    <th>FrequencyDomain</th>
+  </tr>
+  <tr>
+    <td>Body Acceleration</td>
+    <td>TimeDomain.BodyAcceleration.XYZ</td>
+    <td>FrequencyDomain.BodyAcceleration.XYZ</td>
+  </tr>
+  <tr>
+    <td>Gravity Acceleration</td>
+    <td>TimeDomain.GravityAcceleration.XYZ</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Body Acceleration Jerk</td>
+    <td>TimeDomain.BodyAccelerationJerk.XYZ</td>
+    <td>FrequencyDomain.BodyAccelerationJerk.XYZ</td>
+  </tr>
+  <tr>
+    <td>Body Angular Speed</td>
+    <td>TimeDomain.BodyAngularSpeed.XYZ</td>
+    <td>FrequencyDomain.BodyAngularSpeed.XYZ</td>
+  </tr>
+  <tr>
+    <td>Body Angular Acceleration</td>
+    <td>TimeDomain.BodyAngularAcceleration.XYZ</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Body Acceleration Magnitude</td>
+    <td>TimeDomain.BodyAccelerationMagnitude</td>
+    <td>FrequencyDomain.BodyAccelerationMagnitude</td>
+  </tr>
+  <tr>
+    <td>Gravity Acceleration Magnitude</td>
+    <td>TimeDomain.GravityAccelerationMagnitude</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Body Acceleration Jerk Magnitude</td>
+    <td>TimeDomain.BodyAccelerationJerkMagnitude</td>
+    <td>FrequencyDomain.BodyAccelerationJerkMagnitude</td>
+  </tr>
+  <tr>
+    <td>Body Angular Speed Magnitude</td>
+    <td>TimeDomain.BodyAngularSpeedMagnitude</td>
+    <td>FrequencyDomain.BodyAngularSpeedMagnitude</td>
+  </tr>
+  <tr>
+    <td>Body Angular Acceleration Magnitude</td>
+    <td>TimeDomain.BodyAngularAccelerationMagnitude</td>
+    <td>FrequencyDomain.BodyAngularAccelerationMagnitude</td>
+  </tr>
+</table>
 
     </ol>
     </li>
